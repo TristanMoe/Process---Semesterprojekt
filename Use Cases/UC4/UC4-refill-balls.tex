@@ -1,0 +1,174 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+{}
+
+\protect\hypertarget{t.982baa266913794041029567659e3677b1ccea8f}{}{}\protect\hypertarget{t.0}{}{}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\toprule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Navn}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{UC4 - Påfyldning af bolde}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Mål}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Systemet skal kun dispensere nok bolde til at starte et spil}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Initiering}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Systemet}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Aktører}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Primary: Servicemedarbejder}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Referencer}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Antal samtidige forekomster}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{1}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Prækondition}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Spiller er ikke igang.
+Bolddispenseren er ikke fyldt op med bolde}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Postkondition}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Bolddispenseren er fyldt helt op med bolde}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Hovedscenarie}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+\begin{enumerate}
+\tightlist
+\item
+  {Systemet indikerer gennem UI for servicemedarbejder at der mangler bolde}
+\item
+  {Servicemedarbejder låser op til bolddispenser (med nøgle, pinkode eller lignende)}
+\item
+  {Servicemedarbejder tilføjer én bold af gangen \newline
+  [Ext 1 : Bolddispenser er fyldt op]}
+\item
+  {Servicemedarbejder: lukker for bolddispenser \newline
+  [Ext 2 : Der er åben til bolddispenser i mere end 1 min]}
+\item
+  {Systemet: er klar til at spil}
+\end{enumerate}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Udvidelser eller undtagelser}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{[Ext 1 : Bolddispenser er fyldt op]
+\begin{enumerate}
+\tightlist
+\item
+  {Systemet indikerer over for servicemedarbejder at bold beholder er fyldt}
+\item
+  {Servicemedarbejder lukker for bolddispenser}
+\end{enumerate}\
+[Ext 2 : Der er åben til bolddispenser i mere end 1 min]
+\begin{enumerate}
+\tightlist
+\item
+  {Systemet indikerer over for servicemedarbejder at bolddispenser skal lukkes}
+\item
+  {Servicemedarbejder lukker for bolddispenser}
+\end{enumerate}\
+}\strut
+\end{minipage}\tabularnewline
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+{Data variationsliste}\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+{}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\bottomrule
+\end{longtable}
+
+{Tabel X - Fully dressed use case beskrivelse for UC4}
+
+{}
+
+\end{document}

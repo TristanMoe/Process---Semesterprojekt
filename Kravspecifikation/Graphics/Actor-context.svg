@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Oprettet af Microsoft Visio, SVG-eksport Actor-context.svg Aktør-kontekst -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.55021in" height="2.11271in"
+		viewBox="0 0 255.615 152.115" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+	<v:documentProperties v:langID="1033" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+			<v:ud v:nameU="msvConvertTheme"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Arial;font-size:0.666664em;font-weight:bold}
+		.st4 {fill:#ffffff;visibility:hidden}
+		.st5 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st6 {fill:#000000;font-family:Arial;font-size:0.666664em}
+		.st7 {fill:none}
+		.st8 {marker-end:url(#mrkr14-26);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;visibility:hidden}
+		.st9 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.08695652173913}
+		.st10 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st11 {font-size:1em;font-weight:normal}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend14">
+			<path d="M 3 -1 L 0 0 L 3 1 L 3 -1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr14-26" class="st9" v:arrowType="14" v:arrowSize="2" v:setback="34.5" refX="-34.5" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend14" transform="scale(-11.5,-11.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Aktør-kontekst</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="19" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(31.62,-50.9057)">
+			<title>Actor</title>
+			<desc>User</desc>
+			<v:userDefs>
+				<v:ud v:nameU="F" v:val="VT0(1):26"/>
+				<v:ud v:nameU="Format" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:verticalAlign="2"/>
+			<v:textRect cx="9" cy="165.917" width="20.02" height="9.60356"/>
+			<path d="M9 125.12 A3.38203 4.50938 0 1 1 9 116.12 A3.38203 4.50937 0 1 1 9 125.12 Z" class="st1"/>
+			<path d="M9 125.12 A3.38203 4.50938 0 1 1 9 116.12 A3.38203 4.50937 0 1 1 9 125.12" class="st2"/>
+			<path d="M0 129.62 L9 129.62 L18 129.62" class="st2"/>
+			<path d="M2.25 152.12 L9 137.72 L15.75 152.12" class="st2"/>
+			<path d="M9 125.12 L9 137.72" class="st2"/>
+			<text x="0.11" y="168.32" class="st3" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>		</g>
+		<g id="shape2-8" v:mID="2" v:groupContext="shape" transform="translate(202.62,-50.9057)">
+			<title>Actor.2</title>
+			<desc>Worker</desc>
+			<v:userDefs>
+				<v:ud v:nameU="F" v:val="VT0(1):26"/>
+				<v:ud v:nameU="Format" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:verticalAlign="2"/>
+			<v:textRect cx="9" cy="165.917" width="29.79" height="9.60356"/>
+			<path d="M9 125.12 A3.38203 4.50938 0 1 1 9 116.12 A3.38203 4.50937 0 1 1 9 125.12 Z" class="st1"/>
+			<path d="M9 125.12 A3.38203 4.50938 0 1 1 9 116.12 A3.38203 4.50937 0 1 1 9 125.12" class="st2"/>
+			<path d="M0 129.62 L9 129.62 L18 129.62" class="st2"/>
+			<path d="M2.25 152.12 L9 137.72 L15.75 152.12" class="st2"/>
+			<path d="M9 125.12 L9 137.72" class="st2"/>
+			<text x="-4.78" y="168.32" class="st3" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>Worker</text>		</g>
+		<g id="group3-15" transform="translate(81.12,-31.62)" v:mID="3" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Width" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Subject</title>
+			<g id="shape4-16" v:mID="4" v:groupContext="shape">
+				<title>Ark.4</title>
+				<desc>Beerpong table</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:verticalAlign="0"/>
+				<v:textRect cx="42.75" cy="114.99" width="85.5" height="74.25"/>
+				<rect x="0" y="77.865" width="85.5" height="74.25" class="st4"/>
+				<rect x="0" y="77.865" width="85.5" height="74.25" class="st2"/>
+				<rect v:rectContext="textBkgnd" x="15.6176" y="81.8651" width="54.265" height="9.59985" class="st5"/>
+				<text x="15.62" y="89.07" class="st6" v:langID="1030"><v:paragraph v:horizAlign="1"/><v:tabList/>Beerpong table</text>			</g>
+		</g>
+		<g id="group5-21" transform="translate(49.62,-77.8253)" v:mID="5" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1.5):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):3"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):3"/>
+				<v:ud v:nameU="FillColor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginArro22Possible" v:val="VT0(1):5"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MiddleAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="MiddleSize" v:val="VT0(0.065):3"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-0.0051019898567548):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-0.0051019898568277):32"/>
+				<v:ud v:nameU="RealBeginY" v:prompt="" v:val="VT0(-0.12388393003968):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(-0.43749999813735):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.12611606996031):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="" v:val="VT0(-0.12388393003968):1"/>
+				<v:ud v:nameU="MiddleAngle" v:prompt="" v:val="VT0(1.5758983166523):32"/>
+			</v:userDefs>
+			<title>Communication Path</title>
+			<g id="shape6-22" v:mID="6" v:groupContext="shape" transform="translate(16.7654,3.84675)">
+				<title>Ark.6</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape7-27" v:mID="7" v:groupContext="shape" transform="translate(12.6109,3.80702)">
+				<title>Ark.7</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape8-31" v:mID="8" v:groupContext="shape" transform="translate(12.481,16.4069)">
+				<title>Ark.8</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape9-35" v:mID="9" v:groupContext="shape" transform="translate(16.6355,16.4466)">
+				<title>Ark.9</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape5-39" v:mID="5" v:groupContext="groupContent">
+				<path d="M0 161.03 L31.5 161.2" class="st2"/>
+			</g>
+		</g>
+		<g id="group10-42" transform="translate(202.62,-77.8253)" v:mID="10" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RealBeginX" v:val="VT0(0):1"/>
+				<v:ud v:nameU="RealBeginY" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="EndX" v:val="VT0(-1.5):1"/>
+				<v:ud v:nameU="EndY" v:val="VT0(-0.125):1"/>
+				<v:ud v:nameU="BeginArrowSize" v:val="VT0(0.17333333333333):3"/>
+				<v:ud v:nameU="EndSize" v:val="VT0(0.17333333333333):3"/>
+				<v:ud v:nameU="FillColor" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:val="VT0(0):1"/>
+				<v:ud v:nameU="NonNavigability" v:val="VT0(0.125):1"/>
+				<v:ud v:nameU="BeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginArro22Possible" v:val="VT0(1):5"/>
+				<v:ud v:nameU="SetBeginArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetBeginArrow3" v:val="VT0(0):26"/>
+				<v:ud v:nameU="SetEndArrow" v:val="VT0(0):26"/>
+				<v:ud v:nameU="MiddleAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="MiddleSize" v:val="VT0(0.065):3"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-3.1371283991292):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-3.1371283991292):32"/>
+				<v:ud v:nameU="RealBeginY" v:prompt="" v:val="VT0(-0.12388392897532):1"/>
+				<v:ud v:nameU="EndX" v:prompt="" v:val="VT0(0.49999999787126):1"/>
+				<v:ud v:nameU="EndY" v:prompt="" v:val="VT0(0.12611607102468):1"/>
+				<v:ud v:nameU="NonNavigability" v:prompt="" v:val="VT0(-0.12388392897532):1"/>
+				<v:ud v:nameU="MiddleAngle" v:prompt="" v:val="VT0(-1.5752605812547):32"/>
+			</v:userDefs>
+			<title>Communication Path.10</title>
+			<g id="shape11-43" v:mID="11" v:groupContext="shape" transform="translate(-23.2622,16.4536)">
+				<title>Ark.11</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape12-47" v:mID="12" v:groupContext="shape" transform="translate(-14.8778,16.3999)">
+				<title>Ark.12</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape13-51" v:mID="13" v:groupContext="shape" transform="translate(-14.9914,3.80004)">
+				<title>Ark.13</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape14-55" v:mID="14" v:groupContext="shape" transform="translate(-23.3758,3.85369)">
+				<title>Ark.14</title>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st7"/>
+				<rect x="0" y="149.861" width="2.2536" height="2.2536" class="st8"/>
+			</g>
+			<g id="shape10-59" v:mID="10" v:groupContext="groupContent">
+				<path d="M0 161.03 L-36 161.2" class="st2"/>
+			</g>
+		</g>
+		<g id="group15-62" transform="translate(18.12,-18.12)" v:mID="15" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="Width" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<title>Use Case Diagram</title>
+			<g id="shape16-63" v:mID="16" v:groupContext="shape">
+				<title>Ark.16</title>
+				<rect x="0" y="36.24" width="219.375" height="115.875" class="st4"/>
+				<rect x="0" y="36.24" width="219.375" height="115.875" class="st2"/>
+			</g>
+			<g id="shape17-66" v:mID="17" v:groupContext="shape" transform="translate(0,-97.875)">
+				<title>Ark.17</title>
+				<desc>AC Beerpong table</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Row_1" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Row_2" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)"/>
+				<v:textRect cx="39.1343" cy="143.115" width="78.27" height="18"/>
+				<path d="M0 152.12 L71.49 152.12 L80.49 143.12 L80.49 134.12 L0 134.12 L0 152.12 Z" class="st10"/>
+				<text x="4" y="145.51" class="st3" v:langID="1030"><v:paragraph/><v:tabList/>AC <tspan class="st11">Beerpong table</tspan></text>			</g>
+		</g>
+	</g>
+</svg>

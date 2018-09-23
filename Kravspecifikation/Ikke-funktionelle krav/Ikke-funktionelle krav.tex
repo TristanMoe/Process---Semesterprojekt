@@ -1,0 +1,39 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\begin{document}
+\section{Ikke-funktionelle krav}
+De ikke funktionelle krav beskriver systemets fysiske dimensioner og GUI. Samt en række specifikationer om systemet ydeevne 
+\subsection{Fysiske Dimensioner}
+Dimensioner bliver angivet i følgende format [længde/bredde/højde][cm]
+\begin{enumerate}
+\item Beer pong bordet skal være: x/x/x
+\item Kopholder skal være: x/x [radius/dybde]
+\item Bolde skal have en radius på 2cm.
+\item Bold dispenser skal være: x/x/x
+\item Displayskærm skal være: x/x/x
+\end{enumerate}
+
+\subsection{GUI}
+\begin{enumerate}
+\item Displayskærmen skal kunne vise at en person har scoret, ½ sekund efter scoringen.
+\item Når alt er sat op (der er glas på bordet og betalt for bolde) må der som maksimum kun gå 10 sekunder før spillet starter.
+\item Synkroniseringstiden mellem displayskærmen på bordet og mobiltelefon burde være mindre end 5 sekunder.
+\item Displayskærmen skal kunne vise navne på alle der spiller, score og bordets tilstand samtidigt.
+\end{enumerate}
+
+\subsection{Ydeevne}
+\begin{enumerate}
+\item Bolddispenser skal kunne registrer mønt hurtigere end 5 sekunder.
+\item Når en spiller/hold har vundet, skal systemet fejre øjeblikkeligt (100 millisekunder?).
+\item Systemet skal kunne styre 150 LED'er.
+\item Gennemsnitlig strøm gennem en LED burde være: X mA
+\item Systemet skal være vandtæt. Dvs. øl, sodavand og andet væske ikke kan kom til systemet indre sensorer eller computer, uden at bordets top fjernes.
+\item Systemets start op og luk ned tid skal være mindre end 10 sekunder.
+\end{enumerate}
+
+\end{document}

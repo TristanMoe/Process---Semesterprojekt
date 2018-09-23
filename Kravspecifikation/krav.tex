@@ -1,0 +1,32 @@
+\documentclass[a4paper,12pt,fleqn,oneside]{article} 	% Openright aabner kapitler paa hoejresider (openany begge)
+\usepackage{svg}
+\input{Setup/Preamble.tex}
+\def\titlename{Kravspecifikation}
+\input{Setup/Forside.tex}
+
+\begin{document}
+\section{Funktionelle krav}
+\subsection{Aktør beskrivelse}
+Til at beskrive systemet er der udviklet et aktør kontekst diagram , se figur \ref{fig:Actor-context}.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth,trim={0.24in 0.24in 0.24in 0.24in},clip, page=1]{Kravspecifikation/Graphics/Krav-spec-diagrammer.pdf}
+    \caption{Aktør kontekst diagram for systemet}
+    \label{fig:Actor-context}
+\end{figure}
+
+\subsection{Use Case Diagram}
+Der benyttes use cases til at beskrive de funktionelle krav. Der er derfor lavet use case diagrammet som kan ses på figur \ref{fig:Use_case}.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth,trim={0.24in 0.24in 0.24in 0.24in},clip, page=2]{Kravspecifikation/Graphics/Krav-spec-diagrammer.pdf}
+    \caption{Use Case diagram for systemet}
+    \label{fig:Use_case}
+\end{figure}
+
+\subsection{Use case beskrivelser (brief)}
+\subsection{Use case beskrivelser (Fully dressed)}
+\subsubsection{UC1: Start game}
+\input{Kravspecifikation/Use_Cases/UC1-StartGame.tex}
+
+\end{document}
