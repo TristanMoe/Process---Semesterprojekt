@@ -1,0 +1,100 @@
+\documentclass[a4paper,12pt,fleqn,oneside]{article} 
+
+\input{Setup/Preamble.tex}
+
+\def\titlename{Review 1}
+
+\begin{document}
+
+%===============FORSIDE======================
+\input{Setup/Forside.tex}
+\newpage
+
+
+\section{Besvarelse af spørgsmål}
+\begin{itemize}
+    \item Hvilke fordele/ulemper ser I ved måden UC6 er skrevet på kontra de øvrige use case beskrivelser?
+    \begin{itemize}
+        \item Synes det giver en god forståelse for hvordan I har tænkt jer den kommer frem til den specificeret position. En ulempe kunne være at det måske er for specifikt, da I (i en ikke iterativ process) ikke ved hvordan det kan implementeres.
+    \end{itemize}
+    \item Hvad giver jer som læsere den bedste forståelse for use casen?
+    \begin{itemize}
+        \item Der er mange gentagelser i UC6.  Det ved jeg ikke om man kan gøre anderledes, men det giver måske et lidt mindre overblik, idet den fylder så meget.
+    \end{itemize}
+    \item Vi benytter flere steder en figur, der forklarer hvad der menes med robottens akser mv (fx figur 3 i kravspecifikationen). Er der henvist til denne figur i nødvendigt omfang?
+\begin{itemize}
+        \item Der er ikke direkte henvisning til figuren, men der er en god introduktion til figuren der fremhæver vigtigheden af den. De fleste steder de ord der fremgår på figuren fx. akse. Men i UC6 bruger I i stedet ordet 'led' dette er meget forvirende, og der vides ikke hvad der henvises til. 
+    \end{itemize}
+    \item Er der steder hvor i synes det er uklart hvilke dele af robotten der tales om i kravene eller test af kravene?
+    \begin{itemize}
+        \item som tidligere beskrevet 'led' i UC6
+        \item Det ofte meget hvad menes med de forskellige udtryk
+    \end{itemize}
+    \item Feedback på systemsekvensdiagrammerne i dokumentet "Systemarkitektur". Giver de en god forståelse af de forskellige use cases? Kan noget forbedres her?
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\end{itemize}
+
+
+\section{Ikke forstået ord}
+
+\begin{itemize}
+    \item \textbf{yderpunkt}: Der beskrives ikke hvad et yderpunkt er.
+    \item Tabel 3: \textbf{mekanisk kraft} og \textbf{mekanisk styrke}. Hvad menes der med dem? Beskriver de det samme eller to forskellige ting.
+    \item UC6 punkt 8 og 9: \textbf{modstand}. Hvad menes der med dette?
+    \item I ikke funktionelle krav Systemets ydeevne K2.4 benyttes ordet 'opstart' hvornår er dette?
+    \item K6.3 Der står 'gr.' som  forkortelse for gram. Brug 'g' i stedet for. 
+\end{itemize}
+
+\section{Generelle noter til use cases}
+\begin{itemize}
+\item Ext 1 i UC1 giver ikke mening. Da den her "stoppelse" af bevægelsen er det samme som målet af use casen. Ydre er ext 1 sat forkert, da ext 1 stopper bevægelsen, men bevægelsen først start ved punkt 2. 
+\item I UC2 beskrives der ikke hvordan i tænder for en robot: med kontakt, app'en eller andre muligheder. I skriver senere at der er en tænd og sluk kontakt, men det vides ikke ved UC2.
+\item I UC1 skriver i at der kan forekomme 11 samtidige bevægelser, hvilket er lidt forvirrende. Betyder det at den kan gå op og ned på samme tid, og derved ingen veje komme? Er det så stadig en bevægelse? Desuden i jeres ikke funktionellekrav: 6.1 "Smartphoneapplikations"\space punkt k1.5  siger i at der kun kan forekomme 3. Er det fordi app'en og robotten har forskellige krav? Giver det mening.
+\item I har også defineret jeres robot til ikke at kunne bevæge sig hvis der er en forhindring tæt på. I UC1 ext. 3 skriver i at "Systemet detekterer en forhindring og standser alle igangværende bevægelser.", det kan medføre at robotten er stuck når den er tæt på en væg, og ikke kan komme væk derfra.
+\item I UC6 skal alle akser ikke til startposition, lige nu er der kun 5 nævnte. 
+\end{itemize}
+
+
+\section{Generelle noter til ikke-funktionellekrav }
+\begin{itemize}
+\item I har flere tider i punkt: k2.1, k2.2 og k2.3, men samme beskrivelse. Der vides godt hvad I mener, men det virker stadig forvirrende. Desuden mener vi (personligt), at I burde vælge en tid og prioritere den: Altså ikke som en okay, bedre, bedst scenarier, som det er nu.
+\item For K3.11 står der at 2., 3. og 4. akse skal styres for at bevæge referencepunktet lodret op. Hvorfor styre 4. akse? Den er jo i referencepunktet, så den påvirker vel ikke referencepunktets position. Er det for at hånden er i samme vinkel hele tiden? Så skal det beskrives.
+\item Hvor vandrette og lodrette bevægelser skal der være?
+\item K1.4 mangler prioritet
+\item K7.1 og K7.2 benyttes kræfter, kræfter i hvilken retning? Er det måske bedre at bruge kraftmomenter?
+\item Der er jo foreskel på at løfte 500g hvis det er 5cm væk eller hvis det er 20cm væk. Så i burde måske revurdere k6.3
+\end{itemize}
+
+
+\section{Generelle noter til accepttestspecifikation}
+\begin{itemize}
+\item Prækodition i afsnit 4.1.1 mangler, der skal vel skrives at robotten er placeret et sted hvor der ikke er nogen forhindringer.
+\item I punkt 1 afsnit 4.1.4, beskrives der at der skal placeres en forhindring. Det tænkes at det skal være i prækondition.
+\item Hvilken kontakt er det der er nævnt i 4.2.1 trin 1? Den er ikke nævnt UC2
+\item I punkt 5.1: k1.1 kunne "forventer observation"\space godt udvides. Man kan godt åbne en app uden fejlmeddelelser, og stadig ikke virke som ønsket.
+\end{itemize}
+
+
+\section{Generelle noter til arkitektur }
+\begin{itemize}
+\item Jeres BDD og IBD giver ikke mening i forhold til sensor. Der er en sensor blok i jeres BDD: Hvilken slags? Er der kun en? Desuden i jeres IBD er der en strømsensor og en strømsensorprint, er den ene ikke en del af den anden? 
+\item Jeres domænemodel er generelt ikke brugt ret godt. For det første ser det ikke ret læseligt ud. Desuden bruger i hardware blokke; en domænemodel bliver generelt brugt til få et overblik over hele systemet, inklusiv software. 
+\item Hvad betyder kinemetisk bevægelse? Er alt bevægelse ikke kinemetisk?
+\item Jeres UC1 sekvensdiagram er lidt forvirrende i forhold til jeres loop. Når i skriver indstilling virker det som om den allerede er prædefineret hvor den skal hen. Det er lidt svært at formulere, så spørg endelig til mødet. 
+\item Figur 3 hvor der står at der sker det samme når man slipper knappen, og I derfor ikke har tegnet den del. Det synes vi ikke tilstrækkelig. Da der ikke skal udføres helt det samme. Der skal vel ikke tjekkes om bevægelsen er kinematisk. Og motoren skal vel også bare stoppes ikke indstilles.
+\item  Figur 4: UC1 hvilken sensor? Gælder også andre UC diagrammer. 
+\item For protokollen mellem RPiApp og PSoCApp bruger I UART. Vi forslår at I måske bruger noget der passer til læringsmålene. Altså bruge noget fra dette semester. Fx I2C. Dette er specielt gældene da I har valgt at RPi styrer for alt kommunikation med at sende eller anmode om data. Dette er det samme som I2C gør.
+\item Baudraten på 115200 bps virker meget høj. Jeg har haft problemer med at dataen ikke modtages rigtig fra PSoC med en baudrate på 57600, men det kan jo sagtens være mig der har lavet det forkert
+\item I afsnit 5.2.2.2 skriver i anden akse, men i tabellen skriver i "antal grader for første akse". 
+\item i afsnit 5.2.2 beskrives der at der sendes en byte der styre antal grader. Er det hvor mange grader den skal dreje eller en absolut position.
+\end{itemize}
+
+
+
+
+
+
+
+\end{document}

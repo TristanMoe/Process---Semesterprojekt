@@ -1,0 +1,76 @@
+\documentclass[a4paper,12pt,fleqn,oneside]{article} 
+
+\input{Setup/Preamble.tex}
+
+\def\titlename{Review 1 - referat}
+
+\begin{document}
+
+%===============FORSIDE======================
+\input{Setup/Forside.tex}
+\newpage
+
+\section{Generelt}
+\begin{itemize}
+    \item Mangler versionshistorik
+    \item Kravspec og accepttest skal måske adskilles
+    \item Sørg for at have styr på dansk/engelsk
+    \item God opdeling af Use Cases
+\end{itemize}
+
+\section{Projektformulering}
+\begin{itemize}
+    \item God skitse, mere af det
+    \item Inkluder gerne en skitse af brugergrænseflade til at demonstrere UI
+    \item Mere specifik på UI
+\end{itemize}
+
+\section{Kravspec}
+\begin{itemize}
+    \item Manglende tabelnumre
+    \item Mangler Moscow
+    \item Find officielle regler og vedhæft dem som bilag
+    \item Vær mere konsistent og konkret med betegnelserne, nogle steder anvendes ordlisten, og andre steder gør den ikke
+    \item Tegn tingene og bliv enig om betegnelserne hurtigst muligt
+    \item God idé med definitionsliste, men lav den mere udtømmende
+    \item Anvend listen i flowcharten på s. 5
+    \item Aktør/kontekst: Mangler beskrivelse til diagrammet (hvem er worker?), aktiv bruger og modstander er to separate aktører, indsæt evt. sekundære aktører: kopper, bolde
+    \item UC 1: Her vil det igen være godt med en beskrivelse, hvad er playerside, startup, angivne pladser, hvem henviser til hjemmeside, punkt 8 kunne godt være en postkondition, da den flyder sammen med næste UC. Eventuel prækondition: det antages at brugeren har kopper med, ellers kan der ikke spilles, I ext: husk at skriv, at UC afsluttes, hvad sker der med mønten her
+    \item UC 2: Prækondition: definer 'angiv plads', reference til ordliste mangler, punkt 5: brug ordene 'tur skifter' som tidligere defineret, Kald det ext frem for exc, det er ikke sikkert, at der skal være en 'mulighed', den afsluttes brat
+    \item UC 3: Første sætning giver ikke mening, brug udtrykket modstandersiden
+    \item UC 4: Det er måske mere kompliceret end nødvendigt, god idé med LED, men hvad lyser den mellem 2 og 19 bolde, mål stemmer ikke overens med postkondition, kaldes det worker/servicemedarbejder, i hovedscenariet: hvilket UI henvises der til, definer låsen i ikke-funktionelle krav i stedet for i Use Casen, i ext 1: bolddispenseren lukkes 2 gange?, at bolddispenseren er fyldt op skal måske være en del af hovedscenariet
+    \item Ikke-funktionelle krav: Typen af mønt/kop/bold mangler, er det metalkugle / bordtennisbold, her kunne også godt bruges en tegning, mangler tolerancer på mange af kravene, hvad er kravene til displayet, definer tingene i kursiv nærmere, ordet 'øjeblikkeligt' er ikke testbart, definer vandtæt, skal definere hvad brugeren må komme med af bolde og kopper
+\end{itemize}
+
+\section{Accepttest}
+\begin{itemize}
+    \item UC 1: Bruger indsætter mønt i bolddispenser - hvilken mønt, hvor udstedes boldene, hvilket lys i playerside tændes, skriv handlingen som en manual til en testperson frem for i 3. person, specificer hvilken tekst der står på displayet / hjemmesiden, 
+    til extension: mangler en prækondition med ingen bolde i systemet
+    \item UC 2: Hvis man ikke rammer, hvorfor skal der så fjernes en kop
+    \item UC 3: Der skal beskrives hvad brugeren gør, frem for hvad systemet gør, her introduceres noget funktionalitet, som ikke er beskrevet før 
+    \item UC 4: Stemmer ikke helt overens med UC, navnene er ikke konsekvente, mismatch i forhold til postkondition, igen mere specifik på UI
+\end{itemize}
+
+\section{Arkitektur}
+\begin{itemize}
+    \item Møntindkastet skal beskrives tidligere (at det er en del af samme enhed, ball dispenser) 
+    \item Gode BDD'er, det første overordnede BDD kan godt udvides og efterfølges af systemsekvensdiagrammer (muligvis personlig præference)
+    \item Domænemodellen kan med fordel flyttes op, da den giver et overblik over systemet 
+    \item BDD: Måske kopholdere frem for kopper
+    \item IBD på s. 5: Skriv gerne hvorfor cups, coins, balls ikke er med
+    \item Ball dispenser på s 7: Det er først her det angives, at det er 5kr
+    \item s 8: Hold diagrammer på ét niveau
+    \item Sekvensdiagrammer: Navne på UC stemmer ikke overens - dansk/engelsk, UC2 er billedet for UC4, nogle steder kan blokkene skubbes mere sammen, så det fylder mindre
+    \item Grænseflader: Fjern navnet Beerpong Master 2000, protokol: der er ingen grund til at beskrive hvordan I2C virker, beskriv hellere hvordan vi bruger det
+    \item s. 17: Her introduceres begrebet game history for første gang
+    \item Domænemodel: Den giver overblik over systemet, så den kunne med fordel inkluderes før BDD osv.
+    \item s. 19: I2C protokol skal skrives som domæne nede i teksten
+    \item Klassediagram for RPi: Det er uoverskueligt, vis eventuelt det første klassediagram uden metoder og vis så 1 UC af gangen
+    \item Sekvensdiagrammerne: Mange af kaldene der laves er de samme metoder. Der kunne godt laves flere separate metoder, med mere specifikke navne (så læser bedre kan se, hvad der foregår)
+    \item s. 26: Mangler entry points idle på nogle af state machines
+    \item s. 28: Klassediagrammet følger ikke helt UML standarden med returtype
+    \item Sekvensdiagram på s. 30: Måske et bedre navn til dispenseoption
+    \item God tekst på side 33 sammen med tilstandsmaskinen
+\end{itemize}
+
+\end{document}

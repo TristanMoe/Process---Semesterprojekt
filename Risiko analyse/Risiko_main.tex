@@ -1,0 +1,91 @@
+\documentclass{article}
+\input{Setup/Preamble.tex}
+%\usepackage{biblatex}
+%\addbibresource{ref.bib}
+
+\begin{document}
+
+\def\titlename{Risiko analyse}
+\input{Setup/Forside.tex}
+\section{Overordnede risikoer}
+%\input{Risiko analyse/overordnede.tex}
+
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{5cm}|p{1cm}|p{1.2cm}|p{1.2cm}|p{5cm}|}
+\hline
+\textbf{Description} & \textbf{prob. 1-5} & \textbf{conseq. 1-5} & \textbf{impact 1-25} & \textbf{plan} \\ \hline
+Presset med andre afleveringer & 4 & 5 & 20 & Vigtigt at fortælle om man har tid til en opgave, så gruppen kan planlægge ting ud fra det. \\ \hline
+Vi er ikke klar over kompleksitet af de ting vi prøver at lave. & 3 & 4 & 12 & Spørger vejleder eller andre lærere om de mener det er muligt med den viden vi har.\\ \hline
+Sygdom & 4 & 2 & 8 & Andre tager over med opgaver. \\ \hline
+En person dropper ud & 2 & 5 & 10 & Ikke have for mange ting i moscow  must have, så vi kan tåle at ting, som dette sker. \\ \hline
+Vi er ikke nok elektronik folk & 2 & 1 & 2 & Nogle ikt’er hjælper til med elektronikken. \\ \hline
+Få fat i ting til at lave beer pong bordet. & 2 & 4 & 8 & Vi må alle gøre en indsats, så der ikke er få der hænger på den. \\ \hline
+Teknisk uforudsete ting & 2 & 4 & 8 & Der må laves et grundigt design og analyse, så dette ikke sker. \\ \hline
+Manglende arbejdsindsats fra personer & 2 & 5 & 10 & Manglende arbejdsindsats fra personer. \\ \hline
+Folk er bagud og har ikke nok teknisk forståelse. & 2 & 5 & 10 & Folk er bagud og har ikke nok teknisk forståelse. \\ \hline
+Folk er ikke villige til at arbejde over hvis det bliver nødvendigt. & 1 & 2 & 2 & Der planlægges bedre og folk siger det i forvejen for det bliver travlt på et tidspunkt. \\ \hline
+Folk spørger ikke om hjælp hvis de har brug for det & 2 & 4 & 8 & Folk er gode til at hjælpe og spørger om folk har brug for det. \\ \hline
+
+\end{tabular}%
+}
+\end{table}
+
+\section{Tekniske risikoer}
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{5cm}|p{1cm}|p{1.2cm}|p{1.2cm}|p{5cm}|}
+\hline
+\textbf{Description} & \textbf{prob. 1-5} & \textbf{conseq. 1-5} & \textbf{impact 1-25} & \textbf{plan} \\ \hline
+Sensorer,til at detekterer flytning af kop, bliver ikke lavet eller der opstår problemer. & 2 & 5 & 10 & Det ser ikke ud til dette bliver et problem at få denne del lavet, men da det er meget vigtigt for spillet derfor har den fået conseq 5.  \\ \hline
+Sensorer til Dispenser & 3 & 4 & 12 & Vigtig fordi den er i vores must have, men spillet ville kunne fungerer uden. Den burde ikke være vildt svær at lave. Den skal med i sprints fra starten. \\ \hline
+Aktuator/motor til dispensering. & 3 & 4 & 12 & Skal med i sprints fra starten.  \\ \hline
+Detektering af mønter. & 3 & 4 & 12 & Få det til at virke med alle mønter først og herefter til specifikke mønter. \\ \hline
+Belysning til under/rundt om hver kop. & 1 & 4 & 4 & Rimeligt vigtigt i forhold til det at flytte koppen, da det er en måde at se det er gjort. I forhold til at skulle lave dette på en simpel måde er det ikke det største problem. Her er det vigtigt at vi fokusere på de første 6 kopholdere og derefter udvider, hvis der er tid. \\ \hline
+UI til visning af scoreboard osv. & 4 & 5 & 20 & Der kan gøres meget med dette og da mange funktionaliteter påvirker funktionaliteten af UI, så kunne der godt opstå mange problemer her. Evt kan flere personer have fokus på dette område og det er vigtigt at folk der har med fx flytning af kop har UI i tankerne og er enige med UI folket om grænseflader. \\ \hline
+Registrering af om kop er ramt. & 5 & 2 & 10 & En ‘should have’ i projektet. Der vendtes til de andre vigtige ting er med, før der fokuseres på dette(ikke med i de første sprints). \\ \hline
+Timer efter flytning af cup. & 1 & 1 & 1 & Venter til aller sidst med dette hvis der er tid. \\ \hline
+Indtastning af information på Website & 3 & 3 & 9 & Impact afhænger af hvad vi vil gøre ud af det kan laves forholdsvis simpelt. Plannen starte ud simpelt og udvide hvis der bliver tid, men skal ikke på de første sprints.Kan evt. Også droppes, da den er ‘should have’. Should have prioritet. \\ \hline
+12 kopholdere istedet for 6 & 1 & 2 & 2 & Der laves de første 6 kopholdere til at begynde med, men da det er sjovt at have alle 12 til at kunne få et ordentligt spil ud af det, har den høj prioritet af tingene i ‘should have’. \\ \hline
+Hjemmeside hvor resultater gemmes & 3 & 5 & 15 & Har skiftet prioritet til at være høj, da vi har besluttet at det er en must have. Det er over denne hjemmeside man evt. bruger mobil til at indtaste informationer og uden hjemmesiden kan vi ikke indtaste noget information(fx spiller navne) \\ \hline
+Belysning rundt om bord & 1 & 1 & 1 & Kan måske komme på tale. \\ \hline
+
+\end{tabular}%
+}
+\end{table}
+
+\section{Faglige mål}
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{5cm}|p{1cm}|p{1.2cm}|p{1.2cm}|p{5cm}|}
+\hline
+\textbf{Description} & \textbf{prob. 1-5} & \textbf{conseq. 1-5} & \textbf{impact 1-25} & \textbf{plan} \\ \hline
+Der er ikke noget fra faget DOA med. & 1 & 4 & 4 & Have fokus på dette i implementeringen af alt det kode der skrives om der ikke kan inkluderes lidt her. \\ \hline
+Der er noget fra digital signal behandling med. & 2 & 2 & 4 & Hvis det er det eneste fag vi ikke har noget med fra. \\ \hline
+Der er nok fra E’ernes timer med i det de laver. & & & & \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\section{Praktiske risikoer}
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{5cm}|p{1cm}|p{1.2cm}|p{1.2cm}|p{5cm}|}
+\hline
+\textbf{Description} & \textbf{prob. 1-5} & \textbf{conseq. 1-5} & \textbf{impact 1-25} & \textbf{plan} \\ \hline
+Et rør til dispenser. & & & & \\ \hline
+Hvor skal mønterne være? & & & & \\ \hline
+En motor til dispenser. Kan vi låne en steppermotor? & & & & \\ \hline
+En glas plade til at have over sensorer. & & & & \\ \hline
+Finde en skærm vi kan bruge & & & & \\ \hline
+Beskyttelse af skærm imod øl & & & & \\ \hline
+
+\end{tabular}%
+}
+\end{table}
+
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass{article}
+\include{Setup/Preamble.tex}
+
+\begin{document}
+\section{Introduktion}
+Dette dokumentet beskrives overvejelser i projektet (Og beslutninger?)
+
+\section{RPiApp - USER SPACE}
+Overvejelser til RPiApp bestod hovedsageligt i håndtering af eventbaserede handlinger og hvordan de skulle håndteres
+\\1. Foerste design fokuserer på Dispaters, event handlers og MsgQueue struktur. Der er 3 filer, som skal håndteres i User Space. I første omgang laves en tråd til læsning og skrivning, da læsningen får tråden til at sove, kræver det to separate tråde.  
+
+
+\end{document}
